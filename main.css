@@ -1,0 +1,91 @@
+html, body {
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.navbar {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.navbar-left {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-item {
+  margin: auto;
+  margin-right: 20px;
+}
+
+.navbar-item:hover {
+  opacity: 0.8;
+}
+
+.navbar-item:not(first-child) {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.navbar-item a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+#navbar-title {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: none;
+}
+
+.font-primary {
+  font-family: 'Nunito', sans-serif;
+}
+
+.font-secondary {
+  font-family: "source-serif-pro", serif;
+}
+
+.background-primary {
+  background-color: #04C3DE;
+  color: #FFFFFF;
+}
+
+.button-primary {
+  background-color: #04C3DE;
+  color: #FFFFFF;
+}
+
+.footer-block {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 50px 50px;
+  box-sizing: border-box;
+}
+
+.newsletter-form input {
+  line-height: 2em;
+  border: none;
+  border-bottom: 1px darkgrey solid;
+  outline: none;
+}
+
+.newsletter-form h4 {
+  text-transform: uppercase; 
+  margin-bottom: 10px;
+}
