@@ -7,7 +7,7 @@
     <!-- animate.css? -->
     <link href="assets/all-icons.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="assets/main.css">
     <link rel="icon" type="image/png" href="assets/images/vision-chevron.png">
   </head>
 
@@ -23,13 +23,13 @@
       <section class="navbar-right">
         <li class="navbar-item">
           <a href="">Menu</a>
-          <i class="fas fa-bars"></i>
+          <!-- <i class="fas fa-bars"></i> -->
         </li>
       </section>
     </nav>
 
-    <div class="content-main">
-      <section class="intro-block">
+    <div class="content">
+      <section class="intro-block page-block">
         <div class="intro-content">
           <h3 class="intro-text">The vision project is a 2 week summer leadership project.</h3>
           <img class="intro-img" src="assets/images/vision-chevron.png" />
@@ -37,59 +37,59 @@
         <button class="button-primary">What is the Vision Project?</button>
       </section>
 
-      <div class="section-subtitle">watch</div>
-
-      <section id="photos" class="photos-block">
-        <div class="photos-description">
-          <h4>Explore Vision Photos</h4>
-          <p>
-            Seen our photos and want more? Haven’t seen them yet? Either way, explore our albums 
-            by series, themes, event, or just catch up on the latest!
-          </p>
-        </div>
-        <div class="photos-albums">
-          <nav class="photos-albums-nav">
-            <li>Latest Albums</li>
-            <li>Series</li>
-            <li>Themes</li>
-            <li>Bible Study</li>
-            <li>Skills Training</li>
-            <li>Mission Trips</li>
-          </nav>
-          <section class="photos-albums-gallery">
-            <li class="photos-albums-gallery-item">
-              <div class="album-preview-thumb">
-                <!-- <img src="assets/images/brian-song-skills.jpg" alt="brian-song-skills-training"> -->
-              </div>
-              <div class="photo-album-type">series</div>                
-              <div class="photo-album-title">Messages</div>                
-            </li>
-            <li class="photos-albums-gallery-item">
-              <div class="album-preview-thumb">
-                <!-- <img src="assets/images/pastor-jonathan-preaching.jpg" alt="brian-song-skills-training"> -->
-              </div>
-              <div class="photo-album-type">series</div>                
-              <div class="photo-album-title">Skills Training</div>                
-            </li>
-            <li class="photos-albums-gallery-item">
-              <div class="album-preview-thumb">
-                <!-- <img src="assets/images/brian-song-skills.jpg" alt="brian-song-skills-training"> -->
-              </div>
-              <div class="photo-album-type">series</div>                
-              <div class="photo-album-title">Mission Trips</div>                
-            </li>
-          </section>
-        </div>
-        <button>Explore all</button>
-      </section>
+      <section id="photos" class="photos-block page-block">
+        <div class="inner-container">
+          <div class="photos-description">
+            <h3>Explore Vision Photos</h3>
+            <p>
+              Seen our photos and want more? Haven’t seen them yet? Either way, explore our albums 
+              by series, themes, event, or just catch up on the latest!
+            </p>
+          </div>
+          <div class="photos-albums">
+            <nav class="photos-albums-nav">
+              <li><a href="">Latest Albums</a></li>
+              <li><a href="">Series</a></li>
+              <li><a href="">Themes</a></li>
+              <li><a href="">Bible Study</a></li>
+              <li><a href="">Skills Training</a></li>
+              <li><a href="">Mission Trips</a></li>
+            </nav>
+            <section class="photos-albums-gallery">
+              <li class="photos-albums-gallery-item">
+                <div class="album-preview-thumb">
+                  <img src="assets/images/brian-song-skills-converted.jpg" alt="brian-song-skills-training">
+                </div>
+                <div class="photo-album-type">series</div>                
+                <div class="photo-album-title">Messages</div>                
+              </li>
+              <li class="photos-albums-gallery-item">
+                <div class="album-preview-thumb">
+                  <img src="assets/images/pastor-jonathan-preaching-converted.jpg" alt="brian-song-skills-training">
+                </div>
+                <div class="photo-album-type">series</div>                
+                <div class="photo-album-title">Skills Training</div>                
+              </li>
+              <li class="photos-albums-gallery-item">
+                <div class="album-preview-thumb">
+                  <img src="assets/images/brian-song-skills-converted.jpg" alt="brian-song-skills-training">
+                </div>
+                <div class="photo-album-type">series</div>                
+                <div class="photo-album-title">Mission Trips</div>                
+              </li>
+            </section>
+            <button class="button-primary">Explore all</button>
+          </div>
+        </section>
+      </div>
     </div>
     
     <footer>
-      <section class="footer-block">
+      <section class="footer-block page-block">
         <form class="newsletter-form">
           <h4>join our newsletter</h4>
           <input type="text" class="text-field" placeholder="Email" >
-          <button>Join</button>
+          <button class="button-primary">Join</button>
         </form>
         <section class="footer-list">
           <h4>information</h4>
